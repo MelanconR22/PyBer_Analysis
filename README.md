@@ -18,12 +18,16 @@ The data was also plotted on a scatterplot in order to help with visualization a
 
 ![Scatterplot](https://user-images.githubusercontent.com/107599510/182699727-f84d6bab-59dc-49ed-abb2-597bfbdfe122.png)
 
-compare results and talk about how urban has most drivers and number of rides but produces smallest fares due to shorter distances
-suburban is middle of the road
-rural produces most fares but has the smallest number of rides and makes sense due to longer distances
+The data from the scatterplot provides a visual breakdown of number of rides as well as average fare per city for those rides.  Additionally, the circle size correlates with driver count per city.  The results from this are pretty similar to what one would expect when providing rides for three different types of cities.  
+The Urban areas have more rides, more drivers, and lower average fares.  Rural areas have less rides, less drivers, and higher average fares.  This makes sense to me as Urban areas have larger populations and a ride in an urban location would consist of shorter distances.  This equates to more ride opportunities and but also lower fares due to shorter driving time and distances.  The scatterplot shows that a ride from a rural area does not have the same demand as Urban areas.  However, due to an increase in driving distnace and time the average fares are higher.  Suburban number of rides and average fares fall somewehre inbetween Urban and Rural.  Logically this makes sense due to factors mentioned above relating to driving time and population.
 
-## Summary:
-There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types.
+The final visualization was performed to review ride information over a 4 month period.  The data falls in line with the previous analysis:
+
+![PyBer_fare_summary](https://user-images.githubusercontent.com/107599510/182706383-0b2bdc71-d469-4790-b4dd-406cc4f10e49.png)
+
+The data on this chart show the relationship between fares by city type as well as the amount of fares earned for each city type.  The chart shows Urban leading the way with Suburban in the middle and Rural with the fewest rides and fares earned.  Let's move to the summary to see if the data can provide insights in how to dive availability and profitability for PyBer. 
+
+## Summary: Provide a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types.
 
 market to rural and suburban areas in case they don't know about services
 
@@ -34,23 +38,4 @@ identify cities that have the most rides and identify the reason or need for the
 identify events that cause spikes in fares
 
 
-The mean for the ride counts for urban trips is 24.62.
-The median for the ride counts for urban trips is 24.0.
-The mean for the ride counts for suburban trips is 17.36.
-The median for the ride counts for suburban trips is 17.0.
-The mean for the ride counts for rural trips is 6.94.
-The median for the ride counts for rural trips is 6.0.
 
-The mean fare price for urban trips is $24.53.
-The median fare price for urban trips is $24.64.
-The mean fare price for suburban trips is $30.97.
-The median fare price for suburban trips is $30.75.
-The mean fare price for rural trips is $34.62.
-The median fare price for rural trips is $37.05.
-
-The mean number of drivers for urban trips is 37.
-The median number of drivers for urban trips is 37.
-The mean number of drivers for suburban trips is 14.
-The median number of drivers for suburban trips is 16.
-The mean number of drivers for rural trips is 4.
-The median number of drivers for rural trips is 4.
