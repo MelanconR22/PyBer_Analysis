@@ -2,10 +2,21 @@
 
 ## Overview of the analysis:
 
-PyBer is a Python based ride sharing app company and I have been fortunate enough to start a new role with the company.  My first project is to analyze ride sharing data and recommend ways to improve access and affordability of rides and drive profitability of the company.
+PyBer is a Python based ride sharing app company and I have been fortunate enough to start a new role with the company.  My first project is to analyze ride sharing data and recommend ways to improve access and affordability of rides to drive profitability of the company.  I have been provided with two seperate csv files with one containing information about rides and cities and one containing information about rides and drivers.  The csv files were loaded into jupyter notebook and merged together by city to start the analysis.  The data was broken out into Urban, Suburban, and Rural so that information about each area can be analyzed.
 
 ## Results:
-There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type
+
+The results of the analysis shows that there were a total of 2,375 rides.  Rural had 125 rides, Suburban had 625 rides, and Urban had 1,625 rides.  The following pie chart shows the percentage breakdown of rides per city type:
+
+![Rides_by_City_Type](https://user-images.githubusercontent.com/107599510/182698287-204ec6e9-57de-4af0-94c7-c73fa197339e.png)
+
+When looking at the total fares by city type, it is no surprise that the percentage of fares follows a similar distribution as the number of rides per city type:
+
+![Fares_by_City_Type](https://user-images.githubusercontent.com/107599510/182699169-6be1b07b-992e-403e-99a1-6ce1f07e1133.png)
+
+The data was also plotted on a scatterplot in order to help with visualization and analysis of the data.  The following graph shows the results:
+
+![Scatterplot](https://user-images.githubusercontent.com/107599510/182699727-f84d6bab-59dc-49ed-abb2-597bfbdfe122.png)
 
 compare results and talk about how urban has most drivers and number of rides but produces smallest fares due to shorter distances
 suburban is middle of the road
