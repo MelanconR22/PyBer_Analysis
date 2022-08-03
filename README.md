@@ -1,7 +1,8 @@
 # PyBer_Analysis  - Use the PyBer ipynb file to use additional chart info
 
 ## Overview of the analysis:
-The purpose of the new analysis is well defined.
+
+PyBer is a Python based ride sharing app company and I have been fortunate enough to start a new role with the company.  My first project is to analyze ride sharing data and recommend ways to improve access and affordability of rides and drive profitability of the company.
 
 ## Results:
 There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type
@@ -18,6 +19,8 @@ market to rural and suburban areas in case they don't know about services
 analyze cities that have the most routes and put more drivers in the area to not miss opportunities
 
 identify cities that have the most rides and identify the reason or need for the rides 
+
+identify events that cause spikes in fares
 
 
 The mean for the ride counts for urban trips is 24.62.
